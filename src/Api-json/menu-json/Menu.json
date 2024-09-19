@@ -1,0 +1,27 @@
+[
+    {
+        "label":"Home",
+        "link":"/",
+        "isDropdown":false
+    },
+    {
+        "label":"Commumity",
+        "link":"/link",
+        "isDropdown":false
+    },
+    {
+        "label":"Services",
+        "link":"/serices",
+        "isDropdown":true,
+         "DropdownMenu":[
+            {
+                "label":"Business",
+                "link":"/bd"
+            },
+            {
+                "label":"Advertisement",
+                "link":"/advertise"
+            }
+        ]
+    }
+]
